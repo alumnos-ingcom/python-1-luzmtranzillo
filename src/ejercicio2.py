@@ -25,10 +25,12 @@ def signo(numero):
 def principal():
     """
     El usuario ingresa un número y se imprime un mensaje declarando el signo del valor ingresado
+    Precondiciones: Ingreso de números de tipo entero.
+    Poscondiciones: Salida de un mensaje declarando el signo del numero ingresado.
     """
     numero=int(input('Ingrese un número '))
     signo_numero=signo(numero)
-    print (f'El número ingresado es un número {signo_numero}')
+    print (f'El número ingresado es {signo_numero}')
 
 if __name__ == "__main__":
     principal()
