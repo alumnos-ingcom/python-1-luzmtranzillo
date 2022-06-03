@@ -29,6 +29,8 @@ def compara(numero, otro_numero):
 def principal():
     """
     Comparación de números numeros ingresados, y se declara cual es mayor o sin son iguales.
+    Precondiciones:Los números ingresados son de tipo entero.
+    Postcondiciones: Salida de un mensaje declarando que número es mayor o menor, o si son iguales, de acuerdo a al retorno de la función compara().
     """
     numero=int(input('Ingrese un número '))
     otro_numero=int(input('Ingrese otro número '))
