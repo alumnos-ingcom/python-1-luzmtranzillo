@@ -5,7 +5,7 @@
 
 """
 Función que prueba que el ingreso y la salida de la función signo(numero)
-del ejercicio2.py sean del tipo entero.
+del ejercicio2.py sean del tipo entero y string respectivamente. 
 """
 import pytest
 
@@ -20,4 +20,4 @@ def test_signo():
     numero=1
     resultado_signo=signo(numero)
     assert isinstance(numero,int), 'El número ingresado debe ser de tipo entero'
-    assert isinstance(resultado_signo,int),'El retorno de la función signo debe ser de tipo entero'
+    assert isinstance(resultado_signo,str),'El retorno de la función signo debe ser de tipo string'
