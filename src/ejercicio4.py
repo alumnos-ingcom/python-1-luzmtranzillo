@@ -12,7 +12,7 @@ La funcion debe ser capaz de sumar cualquier numero entero positivo y negativo.
 
 def suma_lenta(numero, otro_numero):
     """
-    Función que suma dos números de manera lenta
+    Función que suma dos números de manera lenta, sumando de a 1 el segundo valor ingresado.
     """
     suma=numero
     if otro_numero > 0: 
@@ -27,7 +27,9 @@ def suma_lenta(numero, otro_numero):
 
 def principal():
     """
-    Suma de numeros de manera lenta, sumando de a 1 el segundo valor ingresado.
+    Funcion que retorna un mensaje declarando la suma de dos números enteros ingresados.
+    Precondiciones: Ingreso de números de tipo entero.
+    Postcondiciones: Salida del mensaje retornando la suma entre ambos numeros ingresados por el usuario de acuerdo al retorno de la función suma_lenta().
     """
     numero=int(input('Ingrese un número '))
     otro_numero=int(input('Ingrese otro número '))
