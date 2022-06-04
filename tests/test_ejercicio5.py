@@ -19,7 +19,7 @@ def test_division_lenta():
     division=division_lenta(dividendo, divisor)
     assert isinstance(dividendo, int), 'Debe ingresar un valor de tipo entero'
     assert isinstance(dividendo, int), 'Debe ingresar un valor de tipo entero'
-    assert isinstance(dividendo, tuple), 'El resultado debe ser una tupla con valores de tipo entero.'
+    assert isinstance(division, tuple), 'El resultado debe ser una tupla con valores de tipo entero.'
     assert division==(5, 0), 'La division se ha realizado de manera incorrecta.'
     
 def test_division_lenta_zero():
