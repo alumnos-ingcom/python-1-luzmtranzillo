@@ -63,11 +63,22 @@ def test_suma_lenta_numeros_lento_negativo_negativo():
     
 
 def test_suma_lenta_value_error():
+    """
+    Esta funcíon emite la excepcion ValueError cuando el usuario no ingresa ningun valor.
+    """
     try:
         numero=('')
         otro_numero=('')
     except ValueError as exc:
-        print('Ha ingresado solo un signo negativo. Debe ingresar un número.')
+        print('No ha ingresado ingresado un número')
     
-
+def test_suma_lenta_value_error_negativos():
+    '''
+    Esta funcíon emite la excepcion ValueError cuando el usuario ingresa solo algún signo negativo.
+    '''
+    try:
+        numero=('-')
+        otro_numero=('-')
+    except ValueError as exc:
+        print('Ha ingresado solo un signo negativo. Debe ingresar un número.')
     
