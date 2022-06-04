@@ -27,8 +27,6 @@ def test_division_lenta_zero():
     Función que testea con la excepcion ZeroDivisionError los casos de divisor 0.
     '''
     try:
-        dividendo=10
         divisor=0
-        division=division_lenta(dividendo, divisor)
     except ZeroDivisionError as exc:
         print('No se puede realizar una division con divisor 0')
