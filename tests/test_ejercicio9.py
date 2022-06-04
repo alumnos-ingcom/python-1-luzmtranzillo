@@ -9,8 +9,12 @@ Función que testea la funcion factores_primos(numero) del ejercicio9.py
 import pytest
 
 from src.ejercicio9 import factores_primos
-from src.ejercicio8 import es_primo
 
+try:
+    from ejercicio8 import es_primo
+except ImportError: 
+    from src.ejercicio8 import es_primo
+    
 def test_factores_primos():
     """
     Función que testea que el tipo de entra y salida sean correctas para la funcion factores_primos(numero), y que su resultado sea el correcto. 
