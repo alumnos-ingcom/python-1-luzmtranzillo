@@ -18,7 +18,7 @@ def test_convertir_a_centigrados():
     resultado=convertir_a_centigrados(fahrenheit)
     assert isinstance(fahrenheit,float),"El numero ingresado debe se un numero de tipo flotante"
     assert isinstance(resultado,float),"El resultado debe se un numero de tipo flotante"
-    assert resultado=0.0, 'El resultado debe ser un número de tipo float igual a 0.0'
+    assert resultado==0.0, 'El resultado debe ser un número de tipo float igual a 0.0'
 
 def test_convertir_a_fahrenheit():
     """
@@ -28,4 +28,4 @@ def test_convertir_a_fahrenheit():
     resultado=convertir_a_fahrenheit(centigrados)
     assert isinstance(centigrados,float),"El numero ingresado debe se un numero de tipo flotante"
     assert isinstance(resultado,float),"El resultado debe se un numero de tipo flotante"
-    assert resultado=89.6, 'El resultado debe ser un número de tipo float igual a 89.6'
+    assert resultado==89.6, 'El resultado debe ser un número de tipo float igual a 89.6'
