@@ -36,7 +36,7 @@ def test_suma_lenta_numeros_negativo_negativo():
     assert suma==-10 ,'Error:la suma se ha realizado de manera incorrecta'
     
 
-def test_suma_lento_numeros_positivo_negativo():
+def test_suma_lenta_numeros_positivo_negativo():
     """
     Esta función verifica los tipos de entrada para la funcion suma_lenta sean de tipo entero y que la operación entre un número positivo y uno negativo sea correcta.'
     """
@@ -49,7 +49,7 @@ def test_suma_lento_numeros_positivo_negativo():
     assert suma==0 ,'Error:la suma se ha realizado de manera incorrecta'
     
 
-def test_suma_numeros_lento_negativo_negativo():
+def test_suma_lenta_numeros_lento_negativo_negativo():
     """
     Esta función verifica los tipos de entrada para la funcion suma_lenta sean de tipo entero y que la operación entre un número negativo y uno positivo sea correcta.'
     """
@@ -62,6 +62,12 @@ def test_suma_numeros_lento_negativo_negativo():
     assert suma==0 ,'Error:la suma se ha realizado de manera incorrecta'
     
 
+def test_suma_lenta_value_error():
+    try:
+        numero=-
+        otro_numero=-
+    except ValueError as exc:
+        print('Ha ingresado solo un signo negativo. Debe ingresar un número.')
     
 
     
