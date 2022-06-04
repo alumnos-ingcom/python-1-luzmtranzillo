@@ -63,6 +63,9 @@ def test_suma_lenta_numeros_lento_negativo_negativo():
     
 
 def test_suma_lenta_value_error():
+    try:
+        numero=('')
+        otro_numero=('')
     except ValueError as exc:
         print('Ha ingresado solo un signo negativo. Debe ingresar un número.')
     
