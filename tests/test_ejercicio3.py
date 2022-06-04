@@ -25,7 +25,7 @@ def test_compara_mayor_menor():
     assert comparacion==1, 'Error: La comparación de números ingresados se ha realizado de manera incorrecta. El primer numero es mayor al segundo.'
 
 def test_compara_menor_mayor():
-     """
+    """
     Esta función verifica que los valores ingresados y la salida sean del tipo correcto. Además que verifica que el retorno
     de la función sea correcto. 
     """
@@ -38,7 +38,7 @@ def test_compara_menor_mayor():
     assert comparacion==-1, 'Error: La comparación de números ingresados se ha realizado de manera incorrecta. El primer numero es menor al segundo.'
     
 def test_compara_iguales():
-     """
+    """
     Esta función verifica que los valores ingresados y la salida sean del tipo correcto. Además que verifica que el retorno
     de la función sea correcto. 
     """
