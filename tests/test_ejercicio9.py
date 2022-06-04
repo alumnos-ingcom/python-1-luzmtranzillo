@@ -8,9 +8,11 @@ Función que testea la funcion factores_primos(numero) del ejercicio9.py
 """
 import pytest
 
+from src.ejercicio9 import factores_primos
+
 try:
     from ejercicio8 import es_primo
-except ImportError: 
+except ImportError as exc: 
     from src.ejercicio8 import es_primo
 
 from src.ejercicio9 import factores_primos
