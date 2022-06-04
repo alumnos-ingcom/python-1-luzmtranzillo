@@ -21,7 +21,7 @@ def test_signo_positivo():
     resultado_signo=signo(numero)
     assert isinstance(numero,int), 'El número ingresado debe ser de tipo entero'
     assert isinstance(resultado_signo,str),'El retorno de la función signo debe ser de tipo string'
-    assert resultado_signo='positivo', 'El resultado debe declarar el string: positivo'
+    assert resultado_signo=='positivo', 'El resultado debe declarar el string: positivo'
     
 def test_signo_negativo():
     """
@@ -32,7 +32,7 @@ def test_signo_negativo():
     resultado_signo=signo(numero)
     assert isinstance(numero,int), 'El número ingresado debe ser de tipo entero'
     assert isinstance(resultado_signo,str),'El retorno de la función signo debe ser de tipo string'
-    assert resultado_signo='negativo', 'El resultado debe declarar el string: negativo'
+    assert resultado_signo=='negativo', 'El resultado debe declarar el string: negativo'
     
 def test_signo_cero():
     """
@@ -43,4 +43,4 @@ def test_signo_cero():
     resultado_signo=signo(numero)
     assert isinstance(numero,int), 'El número ingresado debe ser de tipo entero'
     assert isinstance(resultado_signo,str),'El retorno de la función signo debe ser de tipo string'
-    assert resultado_signo='cero', 'El resultado debe declarar el string: cero'
+    assert resultado_signo=='cero', 'El resultado debe declarar el string: cero'
