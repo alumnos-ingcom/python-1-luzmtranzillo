@@ -62,10 +62,7 @@ def test_suma_lenta_numeros_lento_negativo_negativo():
     assert suma==0 ,'Error:la suma se ha realizado de manera incorrecta'
     
 
-def test_suma_lenta_value_error():
-    try:
-        numero=-
-        otro_numero=-
+def test_suma_lenta_value_error
     except ValueError as exc:
         print('Ha ingresado solo un signo negativo. Debe ingresar un número.')
     
