@@ -22,8 +22,7 @@ def test_compara_mayor_menor():
     assert isinstance(numero,int), 'Debe ingresar números de tipo entero'
     assert isinstance(otro_numero,int), 'Debe ingresar números de tipo entero.'
     assert isinstance(comparacion,int), 'La salida de la función debe ser de tipo entero'
-    assert comparacion==1, 'Error: La comparación de números ingresados se ha realizado de manera incorrecta. El primer
-    numero es mayor al segundo.'
+    assert comparacion==1, 'Error: La comparación de números ingresados se ha realizado de manera incorrecta. El primer numero es mayor al segundo.'
 
 def test_compara_menor_mayor():
      """
@@ -36,8 +35,7 @@ def test_compara_menor_mayor():
     assert isinstance(numero,int), 'Debe ingresar números de tipo entero'
     assert isinstance(otro_numero,int), 'Debe ingresar números de tipo entero.
     assert isinstance(comparacion,int), 'La salida de la función debe ser de tipo entero'
-    assert comparacion==-1, 'Error: La comparación de números ingresados se ha realizado de manera incorrecta. El primer
-    numero es menor al segundo.'
+    assert comparacion==-1, 'Error: La comparación de números ingresados se ha realizado de manera incorrecta. El primer numero es menor al segundo.'
     
 def test_compara_iguales():
      """
@@ -50,6 +48,5 @@ def test_compara_iguales():
     assert isinstance(numero,int), 'Debe ingresar números de tipo entero'
     assert isinstance(otro_numero,int), 'Debe ingresar números de tipo entero.
     assert isinstance(comparacion,int), 'La salida de la función debe ser de tipo entero'
-    assert comparacion==0, 'Error: La comparación de números ingresados se ha realizado de manera incorrecta. Los números
-    son iguales.'
+    assert comparacion==0, 'Error: La comparación de números ingresados se ha realizado de manera incorrecta. Los números son iguales.'
 
