@@ -16,8 +16,8 @@ def test_compara_mayor_menor():
     Esta función verifica que los valores ingresados y la salida sean del tipo correcto. Además que verifica que el retorno
     de la función sea correcto. 
     """
-    numero=2
-    otro_numero=4
+    numero=4
+    otro_numero=2
     comparacion=compara(numero, otro_numero)
     assert isinstance(numero,int), 'Debe ingresar números de tipo entero'
     assert isinstance(otro_numero,int), 'Debe ingresar números de tipo entero.'
@@ -29,8 +29,8 @@ def test_compara_menor_mayor():
     Esta función verifica que los valores ingresados y la salida sean del tipo correcto. Además que verifica que el retorno
     de la función sea correcto. 
     """
-    numero=4
-    otro_numero=2
+    numero=2
+    otro_numero=4
     comparacion=compara(numero, otro_numero)
     assert isinstance(numero,int), 'Debe ingresar números de tipo entero'
     assert isinstance(otro_numero,int), 'Debe ingresar números de tipo entero.'
