@@ -20,7 +20,7 @@ def test_compara_mayor_menor():
     otro_numero=4
     comparacion=compara(numero, otro_numero)
     assert isinstance(numero,int), 'Debe ingresar números de tipo entero'
-    assert isinstance(otro_numero,int), 'Debe ingresar números de tipo entero.
+    assert isinstance(otro_numero,int), 'Debe ingresar números de tipo entero.'
     assert isinstance(comparacion,int), 'La salida de la función debe ser de tipo entero'
     assert comparacion==1, 'Error: La comparación de números ingresados se ha realizado de manera incorrecta. El primer
     numero es mayor al segundo.'
