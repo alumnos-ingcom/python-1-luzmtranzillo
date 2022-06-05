@@ -24,6 +24,6 @@ def test_factores_primos():
     numero=10
     resultado=factores_primos(numero)
     assert isinstance(numero, int), 'Debe ingresar un número de tipo int.'
-    assert isinstance(resultado, tupla), 'La función debe retornar una tupla de números enteros.'
+    assert isinstance(resultado, tuple), 'La función debe retornar una tupla de números enteros.'
     assert resultado==(2, 5), 'La tupla se ha generado erroneamente.'
     assert numero>1, 'Números menores a 1 no tienen factores primos.'
