@@ -19,4 +19,4 @@ def test_es_palindromo():
     resultado=es_palindromo(texto)
     assert isinstance(texto, str), 'Debe ingresar una palabra o frase de tipo string.'
     assert isinstance(resultado, str), 'La función debe retornar una palabra o frase de tipo string.'
-    assert texto==resultado, 'La transformación del texto se ha realizado de manera incorrecta. El texto debiera ser palindromo.'
+    assert resultado=='es un palindromo', 'La transformación del texto se ha realizado de manera incorrecta. El texto debiera ser palindromo.'
