@@ -86,7 +86,7 @@ def test_ordenar_mayor_a_menor_2_3_1():
     """
     uno=1
     dos=3
-    tres=3
+    tres=2
     tupla=ordenar_mayor_a_menor(uno, dos, tres)
     assert isinstance(uno, int), 'Debe ingresar un número de tipo entero.'
     assert isinstance(dos, int), 'Debe ingresar un número de tipo entero.'
@@ -115,7 +115,7 @@ def test_ordenar_menor_a_mayor_1_2_3():
     uno=1
     dos=2
     tres=3
-    tupla=ordenar_mayor_a_menor(uno, dos, tres)
+    tupla=ordenar_menor_a_mayor(uno, dos, tres)
     assert isinstance(uno, int), 'Debe ingresar un número de tipo entero.'
     assert isinstance(dos, int), 'Debe ingresar un número de tipo entero.'
     assert isinstance(tres, int), 'Debe ingresar un número de tipo entero.'
@@ -129,7 +129,7 @@ def test_ordenar_menor_a_mayor_2_1_3():
     uno=2
     dos=1
     tres=3
-    tupla=ordenar_mayor_a_menor(uno, dos, tres)
+    tupla=ordenar_menor_a_mayor(uno, dos, tres)
     assert isinstance(uno, int), 'Debe ingresar un número de tipo entero.'
     assert isinstance(dos, int), 'Debe ingresar un número de tipo entero.'
     assert isinstance(tres, int), 'Debe ingresar un número de tipo entero.'
@@ -143,7 +143,7 @@ def test_ordenar_menor_a_mayor_3_1_2():
     uno=2
     dos=1
     tres=1
-    tupla=ordenar_mayor_a_menor(uno, dos, tres)
+    tupla=ordenar_menor_a_mayor(uno, dos, tres)
     assert isinstance(uno, int), 'Debe ingresar un número de tipo entero.'
     assert isinstance(dos, int), 'Debe ingresar un número de tipo entero.'
     assert isinstance(tres, int), 'Debe ingresar un número de tipo entero.'
@@ -157,7 +157,7 @@ def test_ordenar_menor_a_mayor_3_2_1():
     uno=3
     dos=2
     tres=1
-    tupla=ordenar_mayor_a_menor(uno, dos, tres)
+    tupla=ordenar_menor_a_mayor(uno, dos, tres)
     assert isinstance(uno, int), 'Debe ingresar un número de tipo entero.'
     assert isinstance(dos, int), 'Debe ingresar un número de tipo entero.'
     assert isinstance(tres, int), 'Debe ingresar un número de tipo entero.'
@@ -171,7 +171,7 @@ def test_ordenar_menor_a_mayor_1_3_2():
     uno=1
     dos=3
     tres=2
-    tupla=ordenar_mayor_a_menor(uno, dos, tres)
+    tupla=ordenar_menor_a_mayor(uno, dos, tres)
     assert isinstance(uno, int), 'Debe ingresar un número de tipo entero.'
     assert isinstance(dos, int), 'Debe ingresar un número de tipo entero.'
     assert isinstance(tres, int), 'Debe ingresar un número de tipo entero.'
@@ -185,7 +185,7 @@ def test_ordenar_menor_a_mayor_2_3_1():
     uno=1
     dos=3
     tres=2
-    tupla=ordenar_mayor_a_menor(uno, dos, tres)
+    tupla=ordenar_menor_a_mayor(uno, dos, tres)
     assert isinstance(uno, int), 'Debe ingresar un número de tipo entero.'
     assert isinstance(dos, int), 'Debe ingresar un número de tipo entero.'
     assert isinstance(tres, int), 'Debe ingresar un número de tipo entero.'
@@ -199,7 +199,7 @@ def test_ordenar_menor_a_mayor_1_1_1():
     uno=1
     dos=1
     tres=1
-    tupla=ordenar_mayor_a_menor(uno, dos, tres)
+    tupla=ordenar_menor_a_mayor(uno, dos, tres)
     assert isinstance(uno, int), 'Debe ingresar un número de tipo entero.'
     assert isinstance(dos, int), 'Debe ingresar un número de tipo entero.'
     assert isinstance(tres, int), 'Debe ingresar un número de tipo entero.'
