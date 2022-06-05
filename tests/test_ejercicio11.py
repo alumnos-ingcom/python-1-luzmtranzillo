@@ -14,8 +14,8 @@ def test_es_multiplo():
     """
     Función que testea que el tipo de entrada y salida sean del tipo correcto en la función es_multiplo(numero, multiplo) y que las condiciones de ingreso y el retorno sean correctos.
     """
-    numero=10
-    multiplo=2
+    numero=2
+    multiplo=10
     resultado=es_multiplo(numero, multiplo)
     assert isinstance(numero, int), 'Debe ingresar un número de tipo entero.'
     assert isinstance(multiplo, int), 'Debe ingresar un número de tipo entero.'
