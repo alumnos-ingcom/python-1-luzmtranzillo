@@ -15,7 +15,7 @@ def test_es_palindromo():
     """
     Test que verifica que el tipo de entrada y salida de la funcion es_palindromo(texto) sea correcta. Y que el retorno tambíen lo sea. 
     """
-    texto=neuquen
+    texto='neuquen'
     resultado=es_palindromo(texto)
     assert isinstance(texto, str), 'Debe ingresar una palabra o frase de tipo string.'
     assert isinstance(resultado, str), 'La función debe retornar una palabra o frase de tipo string.'
