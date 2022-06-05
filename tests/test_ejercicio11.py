@@ -4,7 +4,7 @@
 ################
 
 """
-Test que testea la función es_multipl(numero, multiplo) del ejercicio11.py.
+Test que testea la función es_multiplo (numero, multiplo) del ejercicio11.py.
 """
 import pytest
 

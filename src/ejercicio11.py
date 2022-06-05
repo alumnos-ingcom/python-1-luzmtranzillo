@@ -9,7 +9,7 @@ Escribir una función que indique con True si un número entero es multiplo de o
 """
 def es_multiplo(numero, multiplo):
     """
-    Funcion que mediante sumas evalua si el valor ingresado en multiplo es multiplo de número, arrogando un valor de True o False.
+    Funcion que mediante sumas evalua si el valor ingresado es multiplo de número, arrojando un valor de True o False.
     """
     valor_numero=numero
     while valor_numero < multiplo:
