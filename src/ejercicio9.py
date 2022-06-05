@@ -8,7 +8,7 @@
 Escribir una función que retorne una tuple con factores primos de un numero entero positivo.
 """
 
-from ejercicio8 import es_primo
+from src.ejercicio8 import es_primo
 
 def factores_primos(numero):
     """
