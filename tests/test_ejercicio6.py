@@ -141,7 +141,7 @@ def test_ordenar_menor_a_mayor_3_1_2():
     Función que verifica que los tipos de entrada y salida sean del tipo correcto, y que la tupla generada sea correcta de acuerdo a los casos planteados.
     """
     uno=2
-    dos=1
+    dos=3
     tres=1
     tupla=ordenar_menor_a_mayor(uno, dos, tres)
     assert isinstance(uno, int), 'Debe ingresar un número de tipo entero.'
