@@ -4,15 +4,15 @@
 ################
 
 """
-Ejercicio 11
+Test que testea la función es_multipl(numero, multiplo) del ejercicio11.py.
 """
 import pytest
 
-from src.ejercicio1 import es_multiplo
+from src.ejercicio11 import es_multiplo
 
 def test_es_multiplo():
     """
-       Una breve descripción del caso de prueba aplicado a la función
+    Función que testea que el tipo de entrada y salida sean del tipo correcto en la función es_multiplo(numero, multiplo) y que las condiciones de ingreso y el retorno sean correctos.
     """
     numero=10
     multiplo=2
