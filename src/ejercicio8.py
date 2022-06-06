@@ -13,7 +13,7 @@ def es_primo(numero):
     Función que determina si numero es primo o no.
     """
     resultado=''
-    if numero> 1:
+    if numero>1:
         for n in range(2,numero):
             if (numero % n) == 0:
                 resultado=False
