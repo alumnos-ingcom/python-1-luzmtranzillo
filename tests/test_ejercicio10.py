@@ -16,7 +16,7 @@ def test_remover_caracteres_especiales():
     Test que verifica que el tipo de entrafa y salida sea correcto. Además de que el resultado retornado sea correcto.
     '''
     cadena='Oí lo de mamá: me dolió'
-    resultado=removedor_caracteres_especiales(cadena)
+    resultado=remover_caracteres_especiales(cadena)
     assert isinstance(cadena, str), 'Debe ingresar una palabra o frase de tipo string.'
     assert isinstance(resultado, str), 'La función debe retornar una palabra o frase de tipo string.'
     assert resultado=='oilodemamamedolio', 'La eliminación de caracteres especiales se ha realizado de manera incorrecta.'
