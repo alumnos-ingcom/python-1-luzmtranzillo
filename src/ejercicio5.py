@@ -13,11 +13,11 @@ def division_lenta(dividendo, divisor):
     Funcion que divide un numero de manera lenta, restando de a 1 al dividendo
     """
     cociente=0
-    while dividendo >= divisor:
-        cociente += 1
-        dividendo -= divisor
+    while dividendo>=divisor:
+        cociente+=1
+        dividendo-=divisor
     resto=dividendo
-    return (cociente, resto)
+    return(cociente, resto)
 
 def principal():
     """
