@@ -4,14 +4,17 @@
 ################
 
 """
-Función que testea la función es_palindromo(texto) del ejercicio10.py. 
+Función que testea la función es_palindromo(texto) y la función remover_caracteres_especiales(cadena) del ejercicio10.py. 
 
 """
 import pytest
 
-from src.ejercicio10 import es_palindromo, removedor_caracteres_especiales
+from src.ejercicio10 import es_palindromo, remover_caracteres_especiales
 
-def test_removedor_caracteres_especiales():
+def test_remover_caracteres_especiales():
+    '''
+    Test que verifica que el tipo de entrafa y salida sea correcto. Además de que el resultado retornado sea correcto.
+    '''
     cadena='Oí lo de mamá: me dolió'
     resultado=removedor_caracteres_especiales(cadena)
     assert isinstance(cadena, str), 'Debe ingresar una palabra o frase de tipo string.'
