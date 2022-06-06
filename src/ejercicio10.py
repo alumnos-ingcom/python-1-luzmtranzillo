@@ -8,19 +8,34 @@
 Escribir una función que indique con True si una palabra o frase ingresada se trata de un palindromo. Palíndromo, es si se lee igual de derecha a izquierda que de izquierda a derecha.
 """
 
+def remover_caracteres_especiales(cadena):
+    cadena = cadena.lower()
+    cadena = cadena.replace(" ", "")
+    cadena = cadena.replace(",", "")
+    cadena = cadena.replace(":", "")
+    cadena = cadena.replace("á", "a")
+    cadena = cadena.replace("é", "e")
+    cadena = cadena.replace("í", "i")
+    cadena = cadena.replace("ó", "o")
+    cadena = cadena.replace("ú", "u")
+    return cadena
+
 def es_palindromo(texto):
     """
     Funcion que invierte texto invertido, lo compara con el original y declara si es o no palindromo. 
     """
-    texto_invertido=texto[::-1]
-    palindromo=('')
-    if texto == texto_invertido:
-        palindromo=('es un palindromo')
-    else:
-        palindromo=('no es un palindromo')
-    return palindromo
-        
-        
+    inicio=0
+    fin=len(texto)-1
+    for i in range(0, len(texto)):
+        if texto[inicio] == texto[fin]:
+            inicio+=1
+            fin-=1
+            resultado='es un palindromo.'
+        else:
+            resultado='no es un palindromo.'
+    return resultado
+
+
 
 def principal():
     """
@@ -28,7 +43,8 @@ def principal():
     Precondiciones: Ingreso de una variable de tipo string.
     Postcondiciones: Salida de un mensaje de tipo string declarando si la palabra o frase es palindromo o no.
     """
-    texto=str(input('Ingrese una palabra o frase: '))
+    cadena=str(input('Ingrese una palabra o frase: '))
+    texto=remover_caracteres_especiales(cadena)
     resultado=es_palindromo(texto)
     print(f'El texto ingresado {resultado}')
 
