@@ -12,14 +12,16 @@ def es_primo(numero):
     """
     Función que determina si numero es primo o no.
     """
+    resultado=''
     if numero> 1:
         for n in range(2,numero):
             if (numero % n) == 0:
-                return False
-        return True
+                resultado=False
+        resultado=True
     else:
-        return False
-        
+        resultado=False
+    return resultado
+
 def principal():
     """
     Función que pide un número al usuario y usando el retorno de la función es_primo(numero) y envia un mensaje declarando el resultado. 
