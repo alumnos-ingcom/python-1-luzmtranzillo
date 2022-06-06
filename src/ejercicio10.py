@@ -4,7 +4,7 @@
 ################
 
 """
-10. Palíndromo
+10.Palíndromo.
 Escribir una función que indique con True si una palabra o frase ingresada se trata de un palindromo. Palíndromo, es si se lee igual de derecha a izquierda que de izquierda a derecha.
 """
 
