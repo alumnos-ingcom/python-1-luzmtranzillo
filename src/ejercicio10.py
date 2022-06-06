@@ -30,9 +30,9 @@ def es_palindromo(texto):
         if texto[inicio] == texto[fin]:
             inicio+=1
             fin-=1
-            resultado='es un palindromo.'
+            resultado='es un palindromo'
         else:
-            resultado='no es un palindromo.'
+            resultado='no es un palindromo'
     return resultado
 
 
@@ -46,7 +46,7 @@ def principal():
     cadena=str(input('Ingrese una palabra o frase: '))
     texto=remover_caracteres_especiales(cadena)
     resultado=es_palindromo(texto)
-    print(f'El texto ingresado {resultado}')
+    print(f'El texto ingresado {resultado}.')
 
 if __name__ == "__main__":
     principal()
