@@ -14,11 +14,8 @@ def es_multiplo(numero, multiplo):
     valor_numero=numero
     while valor_numero < multiplo:
         valor_numero+=numero
-    if valor_numero==multiplo:
-        return True
-    else:
-        return False
-
+    return valor_numero==multiplo
+    
 def principal():
     """
     Función que de acuerdo al retorno de la función es_multiplo(numero, multiplo)
@@ -29,7 +26,7 @@ def principal():
     numero=int(input('Ingrese un número '))
     multiplo=int(input('Ingrese otro número '))
     resultado=es_multiplo(numero, multiplo)
-    if resultado==True:
+    if resultado:
         print(f'{resultado}: el segundo número ingresado es multiplo del primero.')
     else:
         print(f'{resultado}: el segundo número ingresado no es multiplo del primero.')
