@@ -12,7 +12,7 @@ def signo(numero):
     '''
     Función que evalua si el numero ingresado es positivo, negativo o cero.
     '''
-    signo=('')
+    signo=''
     if numero+numero > 0:
         signo='positivo'
     elif numero+numero < 0:
