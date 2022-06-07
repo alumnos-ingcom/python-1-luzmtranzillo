@@ -14,11 +14,11 @@ def signo(numero):
     '''
     signo=''
     if numero+numero > 0:
-        signo='positivo'
+        signo=1
     elif numero+numero < 0:
-        signo='negativo'
+        signo=-1
     else:
-        signo='cero'
+        signo=0
     return signo
 
 
@@ -30,7 +30,11 @@ def principal():
     """
     numero=int(input('Ingrese un número '))
     signo_numero=signo(numero)
-    print (f'El número ingresado es {signo_numero}')
-
+    if signo_numero==1:
+        print ('El número ingresado es positivo.')
+    elif signo_numero==-1:
+        print ('El número ingresado es negativo.')
+    else:
+        print('El número ingresado es cero')
 if __name__ == "__main__":
     principal()
