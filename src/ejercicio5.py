@@ -18,8 +18,13 @@ def division_lenta(dividendo, divisor):
             cociente+=1
             dividendo-=divisor
         resto=dividendo
-    elif (dividendo<0 and divisor>0) or (dividendo>0 and divisor)<0 :
+    elif dividendo<0 and divisor>0:
         while dividendo<0:
+            cociente-=1
+            dividendo+=divisor
+        resto=dividendo
+    elif dividendo>0 and divisor<0:
+        while dividendo>0:
             cociente-=1
             dividendo+=divisor
         resto=dividendo
